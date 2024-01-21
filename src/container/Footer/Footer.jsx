@@ -19,9 +19,9 @@ const Footer = () => (
       </div>
 
       <div className="app__footer-links_logo">
-        <img src={images.gericht} alt="footer_logo" />
+        <img src={images.gericht} alt="footer_logo" loading='lazy'/>
         <p className="p__opensans">&quot;The best way to find yourself is to lose yourself in the service of others.&quot;</p>
-        <img src={images.spoon} className="spoon__img" style={{ marginTop: 15 }} />
+        <img src={images.spoon} className="spoon__img" style={{ marginTop: 15 }} loading='lazy' alt='spoon' />
         <div className="app__footer-links_icons">
           <FiFacebook />
           <FiTwitter />
