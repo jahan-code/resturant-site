@@ -50,3 +50,14 @@ a {
             transform: translateY(0);
   }
 }
+
+img {
+  filter: blur(5px);
+  animation: unblur 0.5s ease-in-out 2s forwards;
+}
+
+@keyframes unblur {
+  to {
+    filter: none;
+  }
+}
