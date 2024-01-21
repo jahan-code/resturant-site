@@ -29,8 +29,8 @@ const SpecialMenu = () => (
         <p className='app__specialMenu-menu_heading'>Juice Oasis</p>
         <div className='app__specialMenu-menu_items'>
           {
-            data.coffee.map((coffee, index)=>(
-             <MenuItem key={coffee.title + index} title={coffee.title} price={coffee.price} tags={coffee.tags}/>
+            data.juicesb.map((juicesb, index)=>(
+             <MenuItem key={juicesb.title + index} title={juicesb.title} price={juicesb.price} tags={juicesb.tags}/>
             ))}
         </div>
       </div>

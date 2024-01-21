@@ -1,60 +1,5 @@
 import images from './images';
 
-const juices = [
-  {
-    title: 'Chapel Hill Shiraz',
-    price: '$56',
-    tags: 'AU | Bottle',
-  },
-  {
-    title: 'Catena Malbee',
-    price: '$59',
-    tags: 'AU | Bottle',
-  },
-  {
-    title: 'La Vieillw Rose',
-    price: '$44',
-    tags: 'FR | 750 ml',
-  },
-  {
-    title: 'Rhino Pale Ale',
-    price: '$31',
-    tags: 'CA | 750 ml',
-  },
-  {
-    title: 'Irish Guinness',
-    price: '$26',
-    tags: 'IE | 750 ml',
-  },
-];
-
-const coffee = [
-  {
-    title: 'Aperol Sprtiz',
-    price: '$20',
-    tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
-  },
-  {
-    title: "Dark 'N' Stormy",
-    price: '$16',
-    tags: 'Dark rum | Ginger beer | Slice of lime',
-  },
-  {
-    title: 'Daiquiri',
-    price: '$10',
-    tags: 'Rum | Citrus juice | Sugar',
-  },
-  {
-    title: 'Old Fashioned',
-    price: '$31',
-    tags: 'Bourbon | Brown sugar | Angostura Bitters',
-  },
-  {
-    title: 'Negroni',
-    price: '$26',
-    tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
-  },
-];
 
 const awards = [
   {
@@ -79,4 +24,62 @@ const awards = [
   },
 ];
 
-export default { juices, coffee, awards };
+const juices = [
+  {
+    title: 'Orange Juice',
+    price: '$5',
+    tags: 'Freshly squeezed | 250 ml',
+  },
+  {
+    title: 'Apple Juice',
+    price: '$5',
+    tags: 'Freshly squeezed | 250 ml',
+  },
+  {
+    title: 'Pineapple Juice',
+    price: '$5',
+    tags: 'Freshly squeezed | 250 ml',
+  },
+  {
+    title: 'Cranberry Juice',
+    price: '$5',
+    tags: 'Freshly squeezed | 250 ml',
+  },
+  {
+    title: 'Grapefruit Juice',
+    price: '$5',
+    tags: 'Freshly squeezed | 250 ml',
+  },
+];
+
+const juicesb = [
+  {
+    title: 'Carrot Juice',
+    price: '$5',
+    tags: 'Freshly squeezed | 250 ml',
+  },
+  {
+    title: 'Beetroot Juice',
+    price: '$5',
+    tags: 'Freshly squeezed | 250 ml',
+  },
+  {
+    title: 'Watermelon Juice',
+    price: '$5',
+    tags: 'Freshly squeezed | 250 ml',
+  },
+  {
+    title: 'Lemonade',
+    price: '$5',
+    tags: 'Freshly squeezed | 250 ml',
+  },
+  {
+    title: 'Ginger Ale',
+    price: '$5',
+    tags: 'Freshly squeezed | 250 ml',
+  },
+];
+
+const data = {awards, juices, juicesb };
+
+export default data;
